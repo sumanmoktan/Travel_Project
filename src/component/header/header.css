@@ -1,6 +1,7 @@
 .header{
     position:fixed;
     inset: 0 0 auto;
+    z-index: 1000;
 }
 .nav, 
 .nav-list,
@@ -19,6 +20,12 @@
     box-shadow:  0 4px 16px hsla(var(--hue), 90%, 8%, 0.1);
 
 }
+.nav-link,
+.nav-toggle,
+.nav-close{
+ cursor: pointer;
+}
+
 .nav-list{
     column-gap: 2.25rem;
 }
@@ -34,8 +41,12 @@
     color: color 0.3s;
 }
 
-.nav-link:hover{
+.nav-link:hover,
+.active{
     color: var(--first-color);
+}
+.nav-link-button{
+    display: none;
 }
 .nav-toggle,
 .nav-close{

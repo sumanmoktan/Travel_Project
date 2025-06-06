@@ -10,15 +10,19 @@ import {
 } from "react-icons/fa";
 import { links, footerGallery } from "../../Data";
 import "./footer.css";
+import { animateScroll, Link } from "react-scroll";
 
 const Footer = () => {
+  const scrollTop = () => {
+    animateScroll.scrollToTop();
+  };
   return (
     <footer className="footer">
       <div className="footer-container container grid">
         <div>
-          <a href="/" className="footer-logo">
+          <Link to="/" className="footer-logo" onClick={scrollTop}>
             <img src={footerlog} alt="" className="footer-logo-img" />
-          </a>
+          </Link>
           <p className="footer-description">
             Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eos eius
             maiores consequatur possimus.

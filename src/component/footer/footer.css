@@ -13,6 +13,9 @@
 .footer-info{
     color: var(--white-color);
 }
+.footer-logo{
+    cursor: pointer;
+}
 
 .footer-description{
     max-width: 300px;
@@ -83,6 +86,7 @@
     display: flex;
     align-items: center;
     column-gap: 0.75rem;
+    cursor: pointer;
 }
 .footer-icon{
     font-size: var(--large-font-size);
@@ -96,4 +100,13 @@
 .footer-gallery{
     grid-template-columns: repeat(3, max-content);
     gap:0.75rem
+}
+
+.footer-img{
+    cursor: pointer;
+    transition: opacity 0.3s;
+}
+
+.footer-img:hover{
+    opacity: 0.4;
 }

@@ -1,11 +1,11 @@
-import React from "react";
+import { Link } from 'react-scroll'
 
-const ScrollLinks = ({ to, name, className, children }) => {
+const ScrollLinks = ({ to, name, className, children, extraProps = {} }) => {
   return (
-    <a href={to} className={className}>
+    <Link to={to} smooth={true} duration={500} {...extraProps} className={className}>
       {name}
       {children}
-    </a>
+    </Link>
   );
 };
 
