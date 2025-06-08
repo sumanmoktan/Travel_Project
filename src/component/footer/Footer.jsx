@@ -69,16 +69,16 @@ const Footer = () => {
             <div className="footer-item">
               <FaMapMarkerAlt className="footer-icon" />
               <p className="footer-info">
-                2055 Niagara falls blvd, Amherst Ny 1556
+                Swayambhu-15,Kathmandu,Nepal
               </p>
             </div>
             <div className="footer-item">
               <FaPhone className="footer-icon" />
-              <p className="footer-info">07789531264</p>
+              <p className="footer-info">977-01-4989174/9851008745</p>
             </div>
             <div className="footer-item">
               <FaEnvelopeOpenText className="footer-icon" />
-              <p className="footer-info">info@gmail.com</p>
+              <p className="footer-info">info@asicsnepaltreks.com</p>
             </div>
           </div>
         </div>
