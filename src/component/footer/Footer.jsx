@@ -1,4 +1,4 @@
-import footerlog from "../../assets/footer-logo.png";
+import footerlog from "../../assets/Asic.PNG";
 import ScrollLink from "../links/ScrollLinks";
 import {
   FaFacebook,
@@ -68,9 +68,7 @@ const Footer = () => {
           <div className="footer-contact grid">
             <div className="footer-item">
               <FaMapMarkerAlt className="footer-icon" />
-              <p className="footer-info">
-                Swayambhu-15,Kathmandu,Nepal
-              </p>
+              <p className="footer-info">Swayambhu-15,Kathmandu,Nepal</p>
             </div>
             <div className="footer-item">
               <FaPhone className="footer-icon" />

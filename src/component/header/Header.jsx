@@ -7,7 +7,7 @@ import {
   RiTelegram2Fill,
   RiMenuAddFill,
 } from "react-icons/ri";
-import logo from "../../assets/logo.svg";
+import logo from "../../assets/Asic.PNG";
 import { animateScroll, Link } from "react-scroll";
 
 const Header = () => {
