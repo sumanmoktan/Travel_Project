@@ -1,9 +1,9 @@
 import aboutImg from "../../assets/about-img.png";
 import SectionTitle from "../title/SectionTitle";
-import ScrollLink from "../links/ScrollLinks";
 import { RiTelegram2Fill } from "react-icons/ri";
 
-import './about.css'
+import "./about.css";
+import { Link } from "react-router-dom";
 
 const About = () => {
   return (
@@ -30,9 +30,10 @@ const About = () => {
               <h3 className="about-title"> Awards Winning</h3>
             </div>
           </div>
-          <ScrollLink to="/" name="About More" className="button">
+          <Link to="/about" className="button">
+            About More
             <RiTelegram2Fill className="button-icon" />
-          </ScrollLink>
+          </Link>
         </div>
       </div>
     </section>

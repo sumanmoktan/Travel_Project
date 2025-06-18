@@ -1,5 +1,5 @@
 import SectionTitle from "../title/SectionTitle";
-import ScrollLink from "../links/ScrollLinks";
+import { Link } from "react-router-dom";
 import {
   RiArrowLeftDoubleFill,
   RiArrowRightDoubleFill,
@@ -63,7 +63,7 @@ const Tours = () => {
             <SwiperSlide className="tour-item" key={index}>
               <img src={tour.img} alt="image" className="tour-img" />
               <div className="tour-details">
-                <Stars stars={tour.stars}/>
+                <Stars stars={tour.stars} />
                 <h3 className="tour-title">{tour.title}</h3>
                 <p className="tour-location">{tour.location}</p>
 
@@ -77,13 +77,9 @@ const Tours = () => {
                     <span className="tour-price">{tour.price}</span>
                     <span className="tour-people">/person</span>
                   </p>
-                  <ScrollLink
-                    to="/"
-                    name="More Detail"
-                    className="button"
-                  >
-                    <RiTelegram2Fill className="button-icon" />
-                  </ScrollLink>
+                  <Link to={`/tour/${tour.id}`} className="button">
+                    Details<RiTelegram2Fill className="button-icon" />
+                  </Link>
                 </div>
               </div>
             </SwiperSlide>

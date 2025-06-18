@@ -48,6 +48,9 @@
 .nav-link-button{
     display: none;
 }
+.nav-button {
+    display: inline-flex;
+}
 .nav-toggle,
 .nav-close{
     font-size: 1.5rem;
@@ -57,4 +60,5 @@
 .nav-log-img{
     width: 90px;
     height: 60px;
+    border-radius: 50px;
 }

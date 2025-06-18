@@ -1,4 +1,4 @@
-import React, {useState} from "react";
+import React, { useState } from "react";
 import "./header.css";
 import { links } from "../../Data";
 import ScrollLink from "../links/ScrollLinks";
@@ -35,7 +35,7 @@ const Header = () => {
                 </li>
               );
             })}
-            <li className="nav-item">
+            {/* <li className="nav-item">
               <ScrollLink
                 to="booking"
                 name="Book Now"
@@ -44,10 +44,13 @@ const Header = () => {
               >
                 <RiTelegram2Fill className="button-icon" />
               </ScrollLink>
-            </li>
+            </li> */}
           </ul>
 
-          <RiCloseLargeFill className="nav-close"onClick={() => setShowMenu(!showMenu)} />
+          <RiCloseLargeFill
+            className="nav-close"
+            onClick={() => setShowMenu(!showMenu)}
+          />
         </div>
         <div className="nav-buttons">
           <ScrollLink

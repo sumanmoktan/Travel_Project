@@ -5,6 +5,8 @@ import category4 from "./assets/category-4.png";
 import category5 from "./assets/category-5.png";
 import category6 from "./assets/category-6.png";
 
+import Dinesh from "./assets/Dipesh.jpg";
+
 import destination1 from "./assets/destination-1.png";
 import destination2 from "./assets/destination-2.png";
 import destination3 from "./assets/destination-3.png";
@@ -110,6 +112,33 @@ export const destinations = [
   },
 ];
 
+export const teamMembers = [
+  {
+    id: 1,
+    img: Dinesh,
+    name: "Dinesh singh Tamang",
+    position: "Founder & Lead Guide",
+    description:
+      "Dinesh is a certified guide with over 5 years of experience in mountain adventures. His deep knowledge of Nepali trails andpassion for nature make every trip safe and memorable.",
+  },
+  {
+    id: 2,
+    img: Dinesh,
+    name: "Dinesh singh Tamang",
+    position: "Founder & Lead Guide",
+    description:
+      "Dinesh is a certified guide with over 5 years of experience in mountain adventures. His deep knowledge of Nepali trails andpassion for nature make every trip safe and memorable.",
+  },
+  {
+    id: 3,
+    img: Dinesh,
+    name: "Dinesh singh Tamang",
+    position: "Founder & Lead Guide",
+    description:
+      "Dinesh is a certified guide with over 5 years of experience in mountain adventures. His deep knowledge of Nepali trails andpassion for nature make every trip safe and memorable.",
+  },
+];
+
 export const tours = [
   {
     id: 1,
@@ -169,6 +198,18 @@ export const tours = [
     days: "8 Days",
     price: 201,
     stars: 4,
+  },
+  {
+    id: 7,
+    title: "Sailung Hill Adventure",
+    description: "Explore the hills and clouds.",
+    overview: "Join us on a breathtaking ride to Sailung Hill...",
+    location: "Sailung, Nepal",
+    days: "2 Days / 1 Night",
+    price: "$199",
+    stars: 4,
+    img: tour4,
+    images: [tour1, tour2, tour3],
   },
 ];
 
