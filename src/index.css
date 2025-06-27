@@ -153,11 +153,11 @@ body {
         grid-template-columns: 1fr;
         text-align: center;
     } */
-      .home-container,
-        .about-container,
-        .footer-container {
-            grid-template-columns: 1fr; /* stack columns */
-            text-align: center;
+    .home-container,
+    .about-container,
+    .footer-container {
+        grid-template-columns: 1fr; /* stack columns */
+        text-align: center;
         }
     .footer-logo-img,
     .footer.description{
@@ -181,15 +181,19 @@ body {
 
 /* For small devices */
 @media screen and (max-width: 576px) {
-    .container{
+    .container {
         padding: 1rem;
     }
-    .about-data{
-         flex-direction: column;
-         /* align-items: center;
-         text-align: center; */
+
+    .about-data {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        gap: 1rem; /* Optional: adds spacing between items */
     }
-    .about-no{
+
+    .about-no {
         font-size: 2rem;
     }
 }

@@ -15,7 +15,7 @@ const Category = () => {
       <div className="category-header">
         <SectionTitle
           title="Categories"
-          description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+          description="From thrilling Himalayan treks and vibrant cultural temple tours to serene lake retreats and wild jungle safaris, Nepal’s diverse tour categories offer unforgettable adventures for every traveler."
         />
         <div className="swiper-btns">
           <button className="swiper-btn prev-btn">

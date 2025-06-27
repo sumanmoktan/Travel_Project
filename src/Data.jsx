@@ -6,7 +6,7 @@ import category5 from "./assets/category-5.png";
 import category6 from "./assets/category-6.png";
 
 import Dinesh from "./assets/Dipesh.jpg";
-
+import Rajendra from "./assets/Rajendra.jpg";
 import destination1 from "./assets/destination-1.png";
 import destination2 from "./assets/destination-2.png";
 import destination3 from "./assets/destination-3.png";
@@ -117,25 +117,17 @@ export const teamMembers = [
     id: 1,
     img: Dinesh,
     name: "Dinesh singh Tamang",
-    position: "Founder & Lead Guide",
+    position: "Manager",
     description:
-      "Dinesh is a certified guide with over 5 years of experience in mountain adventures. His deep knowledge of Nepali trails andpassion for nature make every trip safe and memorable.",
+      "Dinesh Singh Tamang is a 24-year-old Marketing Manager from Kavrepalanchok, Nepal, with strong leadership and communication skills. He holds a +2 level education and has over three years of experience in marketing, currently working at ASICS Nepal Mountain International Treks and Tours Pvt. Ltd.",
   },
   {
     id: 2,
-    img: Dinesh,
-    name: "Dinesh singh Tamang",
-    position: "Founder & Lead Guide",
+    img: Rajendra,
+    name: "Rajendra Ghising",
+    position: "Chairman and MD",
     description:
-      "Dinesh is a certified guide with over 5 years of experience in mountain adventures. His deep knowledge of Nepali trails andpassion for nature make every trip safe and memorable.",
-  },
-  {
-    id: 3,
-    img: Dinesh,
-    name: "Dinesh singh Tamang",
-    position: "Founder & Lead Guide",
-    description:
-      "Dinesh is a certified guide with over 5 years of experience in mountain adventures. His deep knowledge of Nepali trails andpassion for nature make every trip safe and memorable.",
+      "Rajendra Tamang is the Chairman and Managing Director of ASICS Nepal Mountain International Treks & Tours, ABBA Garden Restaurant and Bar, and ASICS Nepal International Pvt. Ltd. He is a seasoned leader and entrepreneur with extensive experience in Nepal’s tourism and hospitality industry.",
   },
 ];
 
@@ -144,7 +136,7 @@ export const tours = [
     id: 1,
     img: tour1,
     title: "Everest Base Camp",
-    location: "Paris, France",
+    location: "Nepal",
     days: "5 Days",
     price: 268,
     stars: 5,
@@ -154,7 +146,7 @@ export const tours = [
     id: 2,
     img: tour2,
     title: "Annapurna Base Camp",
-    location: "Dubai, UAE",
+    location: "Nepal",
     days: "6 Days",
     price: 367,
     stars: 4,
@@ -164,7 +156,7 @@ export const tours = [
     id: 3,
     img: tour3,
     title: "Manaslu",
-    location: "Arizona",
+    location: "Nepal",
     days: "8 Days",
     price: 201,
     stars: 3,
@@ -174,7 +166,7 @@ export const tours = [
     id: 4,
     img: tour4,
     title: "Langtang",
-    location: "Nevada, US",
+    location: "Nepal",
     days: "5 Days",
     price: 201,
     stars: 4,
@@ -184,7 +176,7 @@ export const tours = [
     id: 5,
     img: tour5,
     title: "Mardi Himal",
-    location: "Rajasthan, India",
+    location: "Nepal",
     days: "6 Days",
     price: 367,
     stars: 4,
@@ -194,7 +186,7 @@ export const tours = [
     id: 6,
     img: tour6,
     title: "Gokyo Lake",
-    location: "Paris, France",
+    location: "Nepal",
     days: "8 Days",
     price: 201,
     stars: 4,

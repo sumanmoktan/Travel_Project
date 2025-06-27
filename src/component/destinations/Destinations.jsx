@@ -10,7 +10,7 @@ const Destinations = () => {
       <SectionTitle
         subtitle="Top Destinations"
         title="Legendary Places"
-        description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+        description="Nepal's mountains, with their majestic Himalayan peaks and serene valleys, captivate adventures with unparalleled beauty and spiritual tranquility."
       />
       <div className="destinations-container">
         {destinations.map((des, id) => {

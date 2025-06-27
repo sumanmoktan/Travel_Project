@@ -10,20 +10,22 @@ const AboutPage = () => {
         <div class="overlay"></div>
         <div class="hero-content">
           <h1>About Us</h1>
-          <p>Your travel companion to the unexplored beauty of Nepal</p>
+          {/* <p>Your travel companion to the unexplored beauty of Nepal</p> */}
         </div>
       </header>
 
       <section class="about">
         <div class="container">
-          <h2>Who We Are</h2>
+          <h2>About Asics Nepal Treks</h2>
           <p>
-            At Adventure Trails, we're passionate explorers who help you
-            discover Nepal’s hidden gems through unique travel experiences. Our
-            team is committed to offering safe, fun, and unforgettable journeys
-            whether you're hiking, biking, or sightseeing. We started in 2020
-            with a mission to promote eco-tourism and now serve hundreds of
-            happy travelers each year.
+            Asics Nepal Mountain International Treks & Tours, based in
+            Swayambhu-15, Kathmandu, crafts unforgettable Himalayan
+            adventures.With local expertise, we offer personalized treks to
+            iconic destinations like Everest Base Camp and Annapurna, blending
+            breathtaking mountain beauty with vibrant Nepalese culture. From
+            thrilling treks and cultural temple tours to serene lake retreats
+            and jungle safaris, our passionate team ensures safe, sustainable
+            journeys that connect you with Nepal’s soul.
           </p>
         </div>
       </section>

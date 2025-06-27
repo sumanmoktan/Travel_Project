@@ -24,7 +24,7 @@ const Tours = () => {
         <SectionTitle
           subtitle="Epic Adventures Tour"
           title="Select Your Tour"
-          description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+          description="Journey into the heart of the Himalayas with Asics Nepal Treks, where expertly crafted tours unveil Nepal’s awe-inspiring landscapes and vibrant cultural tapestry in an adventure of a lifetime!"
         />
         <div className="swiper-btns">
           <button className="swiper-btn prev-btn">

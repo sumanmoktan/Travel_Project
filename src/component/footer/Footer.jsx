@@ -24,8 +24,9 @@ const Footer = () => {
             <img src={footerlog} alt="" className="footer-logo-img" />
           </Link>
           <p className="footer-description">
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eos eius
-            maiores consequatur possimus.
+            Asics Nepal Treks shines with local expertise, delivering tailored
+            Himalayan journeys filled with stunning views and authentic
+            cultural connections.
           </p>
           <div className="footer-socials">
             <a

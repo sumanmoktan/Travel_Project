@@ -29,7 +29,7 @@ const Home = () => {
             <RiTelegram2Fill className="button-icon" />
           </ScrollLink>
         </div>
-        <img src={homeImage} alt="" className="home-img" />
+        {/* <img src={homeImage} alt="" className="home-img" /> */}
       </div>
       <Booking icon={<RiTelegram2Fill/>}/>
     </section>

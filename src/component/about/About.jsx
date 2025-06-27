@@ -12,9 +12,9 @@ const About = () => {
         <img src={aboutImg} alt="" className="about-img" />
         <div className="about-content">
           <SectionTitle
-            subtitle="We Are Trawind"
-            title="Exploring the World, One Destination at a Time with Us"
-            description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+            subtitle="We Are AsicsNepal"
+            title="Embark on an Unforgottable Himalayn Adventure"
+            description="With Asics Nepal , based in the heart of Kathmandu, we craft expertely guided treks to iconic destinations"
           />
           <div className="about-data">
             <div className="about-item">
