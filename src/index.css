@@ -149,10 +149,10 @@ body {
     .swiper{
         max-width: 350px;
     }
-    /* .footer-container{
+    .footer-container{
         grid-template-columns: 1fr;
         text-align: center;
-    } */
+    }
     .home-container,
     .about-container,
     .footer-container {
@@ -160,7 +160,7 @@ body {
         text-align: center;
         }
     .footer-logo-img,
-    .footer.description{
+    .footer-description{
         margin-inline: auto;
     }
     .footer.description,
@@ -181,8 +181,10 @@ body {
 
 /* For small devices */
 @media screen and (max-width: 576px) {
-    .container {
-        padding: 1rem;
+   .container {
+        padding: 0 1rem; /* Ensure positive padding */
+        width: 100%;
+        overflow-x: hidden;
     }
 
     .about-data {
@@ -193,13 +195,33 @@ body {
         gap: 1rem; /* Optional: adds spacing between items */
     }
 
+    .about-img {
+        width: 100%;
+        max-width: 330px;
+    }
+
+    .about-content {
+        width: 100%;
+        overflow-wrap: break-word; /* Ensures long words wrap */
+        word-wrap: break-word;
+        word-break: break-word;
+    }
+
     .about-no {
         font-size: 2rem;
     }
+    body {
+    overflow-x: hidden;
+  }
 }
 
 @media screen and (max-width: 460px) {
     .booking-form{
         padding: 0;
     }
+    .footer-gallery {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Two equal columns */
+    gap: 0.5rem; /* Optional: space between images */
+}
 }
