@@ -10,12 +10,13 @@ import Home from "../component/home/Home";
 const HomePage = () => {
   return (
     <>
-      <Header />
+    <h1>hello Every One</h1>
+      {/* <Header />
       <Home />
       <Category />
       <About />
       <Destinations />
-      <Tours />
+      <Tours /> */}
     </>
   );
 };
